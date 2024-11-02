@@ -53,3 +53,14 @@ a. Title: Provide a concise title for your pull request, such as “Add bucket l
 •	Clarity and Organization
 •	Summary of Progress and Issues
 
+
+mean-server
+ npm install
+ npm start
+
+mean-client
+	npm install
+	ng serve
+
+commits:
+https://www.conventionalcommits.org/en/v1.0.0-beta.2/

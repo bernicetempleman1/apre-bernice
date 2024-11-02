@@ -19,6 +19,7 @@ import { UserDetailsComponent } from './admin/user-management/user-details/user-
 import { UserManagementComponent } from './admin/user-management/user-management.component';
 import { UserCreateComponent } from './admin/user-management/user-create/user-create.component';
 import { SalesByRegionComponent } from './reports/sales/sales-by-region/sales-by-region.component';
+import { SalesByYearComponent } from './reports/sales/sales-by-year/sales-by-year.component';
 import { SalesComponent } from './reports/sales/sales.component';
 import { AgentPerformanceComponent } from './reports/agent-performance/agent-performance.component';
 import { CallDurationByDateRangeComponent } from './reports/agent-performance/call-duration-by-date-range/call-duration-by-date-range.component';
@@ -56,6 +57,10 @@ export const salesReportRoutes: Routes = [
   {
     path: 'sales-by-region-tabular',
     component: SalesByRegionTabularComponent
+  },
+  {
+    path: 'sales-by-year',
+    component: SalesByYearComponent
   }
 ];
 

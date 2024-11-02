@@ -85,4 +85,8 @@ describe('UserCreateComponent', () => {
     // Verify that the router's navigate method was called with the correct arguments
     expect(router.navigate).toHaveBeenCalledWith(['/user-management/users']);
   });
+
+  //expect(element.getAttribute("placeholder")).toEqual("Enter your username")
+   //not an empty string expect(element.getAttribute("placeholder")).toEqual("")
+   // not username
 });
